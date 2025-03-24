@@ -1,8 +1,5 @@
 class VirtualPet:
-    """
-    A class representing a virtual pet with attributes for name, hunger, and happiness.
-    """
-
+  
     def __init__(self, name):
         """
         Initializes the pet with a name, hunger, and happiness level.
@@ -22,7 +19,7 @@ class VirtualPet:
         Increases the pet's happiness level.
         """
         self.happiness = min(100, self.happiness + 10)
-        self.hunger = min(100, self.hunger + 5)  # Playing makes the pet hungry
+        self.hunger = min(100, self.hunger + 5)  
 
     def get_status(self):
         """
